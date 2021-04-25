@@ -28,6 +28,14 @@ body {
 }
 
 /* This css is only applied when fullscreen is active. */
+.btn-fullScreen {
+  max-width: 50px;
+}
+
+.fc {
+  width: 100%;
+}
+
 .player:fullscreen {
   max-width: none;
   width: 100%;
@@ -160,3 +168,4 @@ input[type=range]::-moz-range-thumb {
   background: #ffc600;
   cursor: pointer;
 }
+
